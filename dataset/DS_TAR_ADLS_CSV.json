@@ -5,6 +5,9 @@
 			"referenceName": "LS_ADLS_Gen2_1",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "ADLS"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
