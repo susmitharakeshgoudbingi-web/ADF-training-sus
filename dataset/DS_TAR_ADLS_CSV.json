@@ -1,0 +1,23 @@
+{
+	"name": "DS_TAR_ADLS_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_Gen2_1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Ready",
+				"fileSystem": "trainingcontainersus"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
