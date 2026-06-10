@@ -1,5 +1,5 @@
 {
-	"name": "DS_TAR_ADLS_CSV",
+	"name": "DS_TARGET_ADLS_CSV",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ADLS_Gen2_1",
