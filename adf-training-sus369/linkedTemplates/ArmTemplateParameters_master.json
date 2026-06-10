@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-training-sus369"
+		},
+		"LS_ADLS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_Gen2_1_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_ADLS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_Gen2_properties_typeProperties_url": {
+			"value": "https://trainingstoragesus.dfs.core.windows.net/"
+		},
+		"LS_ADLS_Gen2_1_properties_typeProperties_url": {
+			"value": "https://trainingstoragesus.dfs.core.windows.net/"
+		},
+		"LS_SRC_ADLS_Gen2_properties_typeProperties_url": {
+			"value": "https://trainingstoragesus.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
