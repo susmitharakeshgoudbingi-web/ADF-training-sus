@@ -1,0 +1,15 @@
+{
+	"name": "adf-training-sus369",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72638c73-f5c4-4156-9cbb-526cf2c1d36d",
+		"tenantId": "3a0f9a02-fa75-489f-97f2-45c5372a2be1"
+	}
+}
